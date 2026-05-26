@@ -38,7 +38,7 @@ Built as a clean, interview-friendly project: simple Redux (no thunks), plain `f
 
 | Layer | Technologies |
 |--------|----------------|
-| **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS 4, Redux Toolkit, Sonner |
+| **Frontend** | Next.js 16, TypeScript, Tailwind CSS 4, Redux Toolkit, Sonner |
 | **Backend** | Node.js, Express 5, MongoDB, Mongoose |
 | **Auth** | bcryptjs, JSON Web Token |
 | **AI** | Groq API (`llama-3.3-70b-versatile`) |
