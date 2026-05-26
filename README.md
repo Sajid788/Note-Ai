@@ -196,22 +196,6 @@ Base URL: `http://localhost:8080`
 
 ---
 
-## Redux Overview
-
-Simple Redux setup without `createAsyncThunk`:
-
-- **Slices** — `authSlice`, `notesSlice` (sync actions only)
-- **API** — `authApi.ts`, `notesApi.ts` (plain `fetch`)
-- **Usage** — call API in components, then `dispatch(setNotes(...))` etc.
-
-Example:
-
-```ts
-const data = await getNotes(token, search, category);
-dispatch(setNotes(data));
-```
-
----
 
 ## Production Build
 
@@ -230,17 +214,4 @@ Set production `NEXT_PUBLIC_API_URL` to your deployed API URL.
 
 ---
 
-## Troubleshooting
 
-| Issue | Fix |
-|-------|-----|
-| Network / fetch errors | Check `NEXT_PUBLIC_API_URL` matches backend `PORT` |
-| AI features fail | Verify `GROQ_API_KEY` in `server/.env` and restart server |
-| MongoDB connection error | Check `MONGO_URI` and that MongoDB is running |
-| 401 on notes | Log in again; token may be expired or invalid |
-
----
-
-## License
-
-ISC
