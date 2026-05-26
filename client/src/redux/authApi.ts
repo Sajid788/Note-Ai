@@ -1,4 +1,4 @@
-const API_URL =  "http://localhost:8080";
+const API_URL =  "https://note-ai-nco4.vercel.app";
 
 // POST - Login
 export const login = async (email: string, password: string) => {
